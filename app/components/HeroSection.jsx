@@ -20,19 +20,8 @@ const HeroSection = () => {
               Hello, I&#39;m{" "}
             </span>
             <br></br>
-            <TypeAnimation
-              sequence={[
-                "Mehakdeep Kaur",
-                1000,
-                "Web Developer",
-                1000,
-                "UI/UX Designer",
-                1000,
-              ]}
-              wrapper="span"
-              speed={50}
-              repeat={Infinity}
-            />
+            <span className="text-[#ADB7BE] bg-clip-text bg-gradient-to-r from-primary-400 to-secondary-600">
+              Mehakdeep Kaur</span>
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
             Hi, I&apos;m a web developer and UI/UX designer based in Canada. I create beautiful and functional websites for businesses of all sizes. 
